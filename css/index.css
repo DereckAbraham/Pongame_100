@@ -1,0 +1,77 @@
+.root{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+    gap: 10px;
+}
+
+.cuadroGrande{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 30rem;
+    height: 40rem;
+
+    background-color: grey;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.cuadroContenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    width: 100%;
+    height: 40rem;
+
+    color: white;
+    background-color: rgb(128, 128, 128);
+}
+
+.conteInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 100%;
+    height: 40rem;
+
+}
+
+.fto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+    width: 5rem;
+    height: 5rem;
+
+    background-color: red;
+    border-radius: 100%;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+
+    background-color: #C6C6C8;
+}
+
